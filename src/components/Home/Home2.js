@@ -11,7 +11,7 @@ import { FaLinkedinIn } from "react-icons/fa";
 import TrackVisibility from "react-on-screen";
 
 function Home2() {
-  const baseUrl = `https://cld2labs.github.io/cld2labs/`
+  const baseUrl = `https://cld2labs.github.io/cloud2labs/`
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
