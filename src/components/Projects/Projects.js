@@ -5,7 +5,7 @@ import Particle from "../Particle";
 
 
 function Projects() {
-  const baseUrl = `https://ssvamsee.github.io/cloud2labs`
+  const baseUrl = `https://cld2labs.github.io`
   return (
     <Container fluid className="project-section" id="projects">
       <Particle />
@@ -58,7 +58,7 @@ function Projects() {
               operators for their projects. 
               "
               ghLink="https://github.com/ssvamsee/CamArtisans/tree/main"
-              demoLink="https://ssvamsee.github.io/CamArtisans/"
+              demoLink="https://cld2labs.github.io"
             />
           </Col>
 
