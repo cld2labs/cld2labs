@@ -6,7 +6,7 @@ import Aboutcard from "./AboutCard";
 
 
 function About() {
-  const baseUrl = `https://ssvamsee.github.io/cloud2labs`
+  const baseUrl = `https://cld2labs.github.io/cloud2labs`
   return (
     <Container fluid className="about-section" id="about">
       <Particle />
