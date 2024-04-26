@@ -14,7 +14,7 @@ const initialState = {
 };
 export const Contact = (props) => {
   const [formData, setFormData] = useState(initialState);
-  const baseUrl = `https://cld2labs.github.io`
+  const baseUrl = window?.location?.href
 
   const handleChange = (e) => {
     const { name, value } = e.target;

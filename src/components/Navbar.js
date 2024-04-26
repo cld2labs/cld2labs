@@ -13,7 +13,7 @@ import { RiCommunityLine } from "react-icons/ri";
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
   const [navColour, updateNavbar] = useState(false);
-  const baseUrl = `https://cld2labs.github.io`
+  const baseUrl = window?.location?.href
 
   function scrollHandler() {
     if (window.scrollY >= 20) {
