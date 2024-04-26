@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/cld2labs.github.io/static/css/main.9d14328f.css",
-    "main.js": "/cld2labs.github.io/static/js/main.f456366e.js",
-    "static/js/415.5d004c93.chunk.js": "/cld2labs.github.io/static/js/415.5d004c93.chunk.js",
-    "static/js/787.8aa711bd.chunk.js": "/cld2labs.github.io/static/js/787.8aa711bd.chunk.js",
-    "static/media/pre.svg": "/cld2labs.github.io/static/media/pre.c2a72c10cc19e34383d5.svg",
-    "index.html": "/cld2labs.github.io/index.html",
-    "main.9d14328f.css.map": "/cld2labs.github.io/static/css/main.9d14328f.css.map",
-    "main.f456366e.js.map": "/cld2labs.github.io/static/js/main.f456366e.js.map",
-    "415.5d004c93.chunk.js.map": "/cld2labs.github.io/static/js/415.5d004c93.chunk.js.map",
-    "787.8aa711bd.chunk.js.map": "/cld2labs.github.io/static/js/787.8aa711bd.chunk.js.map"
+    "main.css": "/cld2labs/static/css/main.8810a516.css",
+    "main.js": "/cld2labs/static/js/main.34106bf3.js",
+    "static/js/415.5d004c93.chunk.js": "/cld2labs/static/js/415.5d004c93.chunk.js",
+    "static/js/787.8aa711bd.chunk.js": "/cld2labs/static/js/787.8aa711bd.chunk.js",
+    "static/media/pre.svg": "/cld2labs/static/media/pre.c2a72c10cc19e34383d5.svg",
+    "index.html": "/cld2labs/index.html",
+    "main.8810a516.css.map": "/cld2labs/static/css/main.8810a516.css.map",
+    "main.34106bf3.js.map": "/cld2labs/static/js/main.34106bf3.js.map",
+    "415.5d004c93.chunk.js.map": "/cld2labs/static/js/415.5d004c93.chunk.js.map",
+    "787.8aa711bd.chunk.js.map": "/cld2labs/static/js/787.8aa711bd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9d14328f.css",
-    "static/js/main.f456366e.js"
+    "static/css/main.8810a516.css",
+    "static/js/main.34106bf3.js"
   ]
 }
