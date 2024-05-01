@@ -34,7 +34,7 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="#home" className="logo">
-          <img src={`${baseUrl}/Assets/icon.png`} alt="brand" className="logo-img" />
+          <img src={`${baseUrl}/Assets/icon.png`} alt="brand" className="logo-img" style="height: 200%;width: 80%;" />
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
