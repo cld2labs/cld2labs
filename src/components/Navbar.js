@@ -34,7 +34,7 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="#home" className="logo">
-          <img src={`${baseUrl}/Assets/icon.png`} alt="brand" className="logo-img" style="height: 200%;width: 80%;" />
+          <img src={`${baseUrl}/Assets/icon.png`} alt="brand" className="logo-img" />
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
@@ -74,21 +74,20 @@ function NavBar() {
                 Projects
               </Nav.Link>
             </Nav.Item>
-
+            <Nav.Item>
+              <Nav.Link
+                href="#community"
+                onClick={() => updateExpanded(false)}
+              >
+                <RiCommunityLine style={{ marginBottom: "2px" }} /> Community
+              </Nav.Link>
+            </Nav.Item>
             <Nav.Item>
               <Nav.Link
                 href="#contact"
                 onClick={() => updateExpanded(false)}
               >
                 <MdContactPhone style={{ marginBottom: "2px" }} /> Contact
-              </Nav.Link>
-            </Nav.Item>
-            <Nav.Item>
-              <Nav.Link
-                href="#community"
-                onClick={() => updateExpanded(false)}
-              >
-                <RiCommunityLine style={{ marginBottom: "2px" }} /> community
               </Nav.Link>
             </Nav.Item>
           </Nav>

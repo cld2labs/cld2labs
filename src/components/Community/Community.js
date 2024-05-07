@@ -15,23 +15,7 @@ export default function Community() {
       <h1 className="project-heading">
         <strong className="highlghter"> Community</strong>
       </h1>
-      <p style={{ color: "white" }}>
-        Here are a few projects We've worked on recently.
-      </p>
       <img src={`${baseUrl}/Assets/coming-soon.png`} alt='coming-soon' />
-      <div class="waviy">
-        <span style={{ "--i": 1 }}>c</span>
-        <span style={{ "--i": 2 }}>o</span>
-        <span style={{ "--i": 3 }}>m</span>
-        <span style={{ "--i": 4 }}>i</span>
-        <span style={{ "--i": 5 }}>n</span>
-        <span style={{ "--i": 6 }}>g</span>
-        &nbsp;
-        <span style={{ "--i": 7 }}>s</span>
-        <span style={{ "--i": 8 }}>o</span>
-        <span style={{ "--i": 9 }}>o</span>
-        <span style={{ "--i": 10 }}>n</span>
-      </div>
       <Row>
         <Col md={12} className="home-about-social">
           <h1 className='highlghter'>FIND US ON</h1>

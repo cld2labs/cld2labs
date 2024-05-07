@@ -60,6 +60,10 @@ button:focus {
   border-radius: 12px;
 }
 
+.yellohr {
+  background: rgba(245, 164, 37, 0.911);
+  color: rgba(245, 164, 37, 0.911);
+}
 .sticky {
   background-color: #1b1a2ea9 !important;
   transition: all 0.3s ease-out 0s !important;
@@ -147,7 +151,7 @@ button:focus {
 }
 
 .logo-img {
-  height: 120%;
+  height: 200%;
   width: 80%
 }
 
