@@ -146,13 +146,13 @@ button:focus {
 }
 
 .logo {
-  height: 3em !important;
-  width: 6em !important;
+  height: 6em !important;
+  width: 5em !important;
 }
 
 .logo-img {
-  height: 200%;
-  width: 80%
+  height: 100%;
+  width: 100%
 }
 
 .navbar-nav .nav-link {
@@ -859,4 +859,20 @@ button:focus {
     opacity: 0;
     top: 60px;
   }
+}
+
+.blogs-section {
+  position: relative !important;
+  padding-top: 150px !important;
+  padding-bottom: 30px !important;
+  background-image: var(--section-background-color) !important;
+  color: white !important;
+}
+
+.articles-section {
+  position: relative !important;
+  padding-top: 150px !important;
+  padding-bottom: 30px !important;
+  background-image: var(--section-background-color) !important;
+  color: white !important;
 }
