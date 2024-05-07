@@ -12,7 +12,7 @@ function About() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          Our <strong className="highlghter">Services </strong>
+          Our <strong className="highlghter">Expertise </strong>
         </h1>
 
         <Techstack />

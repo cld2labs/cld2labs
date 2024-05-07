@@ -42,7 +42,7 @@ function Home({ height }) {
 
               <div style={{ padding: 50, textAlign: "left", fontSize: "1.2em" }}>
                 <Row>
-                  <p>From concept to realization, we are more than just the AI, cloud and mobile experts, we specialize in developing tailored software solutions to businesses of all sizes and stages. We help turn your AI aspirations into concrete achievements.</p>
+                  <h4>From concept to realization, we are more than just the AI, cloud and mobile experts, we specialize in developing tailored software solutions to businesses of all sizes and stages. We help turn your AI aspirations into concrete achievements.</h4>
                 </Row>
               </div>
             </Col>
