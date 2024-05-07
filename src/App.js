@@ -89,7 +89,7 @@ function App() {
               <About />
               <Contact />
               <Routes>
-                <Route path="/community" element={<CommunityPages />} />
+                <Route path={`${baseUrl}/community`} element={<CommunityPages />} />
               </Routes>
               <Footer />
             </>
