@@ -25,7 +25,7 @@ export default function Community() {
           <ul className="home-about-social-links">
             <li className="social-icons">
               <a
-                href="https://github.com/ssvamsee"
+                href="https://github.com/cld2labs"
                 target="_blank"
                 rel="noreferrer"
                 className="icon-colour  home-social-icons"
@@ -35,7 +35,7 @@ export default function Community() {
             </li>
             <li className="social-icons">
               <a
-                href="https://twitter.com/siddamvamsee"
+                href="https://twitter.com/"
                 target="_blank"
                 rel="noreferrer"
                 className="icon-colour  home-social-icons"
@@ -45,7 +45,7 @@ export default function Community() {
             </li>
             <li className="social-icons">
               <a
-                href="https://www.linkedin.com/in/siddam-sai-vamsee-prasad-32436488/"
+                href="https://www.linkedin.com/"
                 target="_blank"
                 rel="noreferrer"
                 className="icon-colour  home-social-icons"
@@ -55,7 +55,7 @@ export default function Community() {
             </li>
             <li className="social-icons">
               <a
-                href="https://www.instagram.com/siddamvamsee/"
+                href="https://www.instagram.com/"
                 target="_blank"
                 rel="noreferrer"
                 className="icon-colour home-social-icons"
