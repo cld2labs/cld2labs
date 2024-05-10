@@ -7,7 +7,7 @@ import TrackVisibility from "react-on-screen";
 import { FaArrowRight } from "react-icons/fa";
 
 function Home({ height }) {
-  const baseUrl = window?.location?.href
+  const baseUrl = `https://cloud2labs.com`
   const [isScrolling, setIsScrolling] = useState(false);
 
   useEffect(() => {

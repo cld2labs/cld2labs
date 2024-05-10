@@ -5,7 +5,7 @@ import Particle from "../Particle";
 
 
 function Projects() {
-  const baseUrl = window?.location?.href
+  const baseUrl = `https://cloud2labs.com`
   return (
     <Container fluid className="project-section" id="projects">
       <Particle />

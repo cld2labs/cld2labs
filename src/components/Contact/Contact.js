@@ -14,7 +14,7 @@ const initialState = {
 };
 export const Contact = (props) => {
   const [formData, setFormData] = useState(initialState);
-  const baseUrl = window?.location?.href
+  const baseUrl = `https://cloud2labs.com`
 
   const handleChange = (e) => {
     const { name, value } = e.target;

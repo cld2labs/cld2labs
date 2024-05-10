@@ -16,7 +16,7 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
-  const baseUrl = window?.location?.href;
+  const baseUrl = `https://cloud2labs.com`;
   console.log("baseUrl:",baseUrl)
   console.log("window.location.pathname:",window.location.pathname)
   const Iscommunity = window.location.pathname === "/community" ? true : false

@@ -7,7 +7,7 @@ import { RiCommunityLine } from "react-icons/ri";
 function NavBar({ showArticlesBlogs }) {
   const [expand, updateExpanded] = useState(false);
   const [navColour, updateNavbar] = useState(false);
-  const baseUrl = window?.location?.href;
+  const baseUrl = `https://cloud2labs.com`;
 
   function scrollHandler() {
     if (window.scrollY >= 20) {

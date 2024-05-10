@@ -3,7 +3,7 @@ import { Container} from "react-bootstrap";
 
 
 export default function Blogs() {
-  const baseUrl = window?.location?.href
+  const baseUrl = `https://cloud2labs.com`
   return (
     <Container fluid className="blogs-section" id="blogs">
       <h1 className="project-heading">
