@@ -11,9 +11,13 @@ function About() {
     <Container fluid className="about-section" id="about">
       <Particle />
       <Container>
-        <h1 className="project-heading">
-          Our <strong className="highlghter">Expertise </strong>
-        </h1>
+      <Row>
+          <Col md={8} className="home-about-description">
+      <h1 className="heading-name">
+              Our <span className="highlghter"> Expertise </span>
+            </h1>
+            </Col>
+        </Row>
 
         <Techstack />
 
@@ -24,6 +28,10 @@ function About() {
 
         {/* <Github /> */}
       </Container>
+      <br />
+      <br />
+      <br />
+      <hr className="yellohr" style={{height:'3px'}}/>
     </Container>
   );
 }

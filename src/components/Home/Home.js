@@ -36,18 +36,18 @@ function Home({ height }) {
           <Row>
             <Col md={7} className="home-header">
               <h1 className="heading-name">
-              Where Innovation Meets Intelligence In
-                <strong className="main-name"> Cloud</strong>
+              Where <strong className="main-name">Innovation</strong> Meets <strong className="main-name">Intelligence</strong>
               </h1>
-
-              <div style={{ padding: 50, textAlign: "left", fontSize: "1.2em" }}>
+              <br />
+              <br />
+              <div style={{ textAlign: "left", fontSize: "1.2em" }}>
                 <Row>
-                  <h4>From concept to realization, we are more than just the AI, cloud and mobile experts, we specialize in developing tailored software solutions to businesses of all sizes and stages. We help turn your AI aspirations into concrete achievements.</h4>
+                  <h3>From concept to realization, we are more than just the AI, cloud and mobile experts, we specialize in developing tailored software solutions to businesses of all sizes and stages. We help turn your AI aspirations into concrete achievements.</h3>
                 </Row>
               </div>
             </Col>
 
-            <Col md={5} style={{ paddingBottom: 20 }}>
+            <Col md={5} style={{ paddingBottom: 10 }}>
               <Tilt>
                 <TrackVisibility>
                   {({ isVisible }) => (
@@ -63,18 +63,12 @@ function Home({ height }) {
             </Col>
           </Row>
         </Container>
-        <br />
-        <br />
-        <br />
-        <hr className="yellohr" style={{height:'3px'}}/>
-        
-        <br />
-        <br />
         {!isScrolling && (
           <div className="field">
             <div className="mouse"></div>
           </div>
         )}
+        <hr className="yellohr" style={{height:'3px'}}/>
       </Container>
       <Home2 />
     </section>

@@ -10,16 +10,20 @@ function Projects() {
     <Container fluid className="project-section" id="projects">
       <Particle />
       <Container>
-        <h1 className="project-heading">
-          Our <strong className="highlghter">Work </strong>
-        </h1>
+      <Row>
+          <Col md={8} className="home-about-description">
+      <h1 className="heading-name">
+              Our <span className="highlghter"> Work </span>
+            </h1>
+            </Col>
+        </Row>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
+        <Col md={4} className="project-card">
             <ProjectCard
-              key={1}
-              imgPath={`https://media.licdn.com/dms/image/C4D0BAQHErlQCybS0-A/company-logo_200_200/0/1630578707213?e=1722470400&v=beta&t=BdEA6yk7MteOGiIMdkEqKYV42JKdt5WZWvTZ3b7iqkk`}
-              title="KarmaSoc"
-              description="KarmaSoc is an innovative social networking platform that promotes good social citizenship, treats every registered user as a partner and rewards them for their positive involvement. KarmaSoc encourages users to socialize wisely to be a good social citizen, promote entrepreneurship, bringing all local businesses to one platform"
+              key={3}
+              imgPath={`Assets/Projects/hc.png`}
+              title="Health Care Applications"
+              description="Healthcare software solutions designed to revolutionize patient care and streamline administrative processes. With a focus on innovation and user-centric design, we empowers healthcare providers to deliver exceptional service while maximizing efficiency."
             />
           </Col>
           <Col md={4} className="project-card">
@@ -32,15 +36,12 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              key={3}
-              imgPath={`Assets/Projects/hc.png`}
-              title="Health Care Applications"
-              description="Healthcare software solutions designed to revolutionize patient care and streamline administrative processes. With a focus on innovation and user-centric design, we empowers healthcare providers to deliver exceptional service while maximizing efficiency."
+              key={1}
+              imgPath={`https://media.licdn.com/dms/image/C4D0BAQHErlQCybS0-A/company-logo_200_200/0/1630578707213?e=1722470400&v=beta&t=BdEA6yk7MteOGiIMdkEqKYV42JKdt5WZWvTZ3b7iqkk`}
+              title="KarmaSoc"
+              description="KarmaSoc is an innovative social networking platform that promotes good social citizenship, treats every registered user as a partner and rewards them for their positive involvement. KarmaSoc encourages users to socialize wisely to be a good social citizen, promote entrepreneurship, bringing all local businesses to one platform"
             />
           </Col>
-
-          
-
 
           {/* <Col md={4} className="project-card">
             <ProjectCard

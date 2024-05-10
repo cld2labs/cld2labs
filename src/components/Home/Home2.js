@@ -17,7 +17,7 @@ function Home2() {
       <Container>
         <Row>
           <Col md={8} className="home-about-description">
-            <h1 style={{ fontSize: "2.6em" }}>
+            <h1 className="heading-name">
               Let's <span className="highlghter"> Intoduce </span> Ourselves
             </h1>
             <p className="home-about-body">
@@ -32,7 +32,7 @@ function Home2() {
             <Tilt>
               <TrackVisibility>
                 {({ isVisible }) =>
-                  <img className={isVisible ? "animate__animated animate__zoomIn" : ""} src={`${baseUrl}/Assets/avatar.svg`} alt="home" />
+                  <img className={isVisible ? "animate__animated animate__zoomIn" : ""} src={`${baseUrl}/Assets/avatar.svg`} alt="home" width="150%"/>
                 }
               </TrackVisibility>
             </Tilt>

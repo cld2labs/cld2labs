@@ -252,7 +252,7 @@ button:focus {
 }
 
 .home-header {
-  padding-top: 80px !important;
+  padding-top: 40px !important;
 }
 
 .home-section {
@@ -278,8 +278,7 @@ button:focus {
 }
 
 .heading-name {
-  font-size: 2.5em !important;
-  padding-left: 45px !important;
+  font-size: 5.5em !important;
 }
 
 .main-name {
@@ -321,7 +320,7 @@ button:focus {
   }
   .home-about-section {
     /* position: relative; */
-    margin-top: 50%;
+    margin-top: 20%;
   }
 }
 
@@ -333,14 +332,14 @@ button:focus {
 
 .home-about-description {
   color: white !important;
-  padding-top: 100px !important;
+  padding-top: 10px !important;
   padding-bottom: 20px !important;
-  text-align: center;
+  text-align: left;
 }
 
 .home-about-body {
   padding-top: 50px;
-  font-size: 1.2em !important;
+  font-size: 1.5em !important;
   text-align: left;
 }
 
@@ -812,10 +811,10 @@ button:focus {
 
 .field {
   display: flex;
-  align-items: center;
+  align-items: start;
   justify-content: space-around;
   width: 10%;
-  height: 20%;
+  height: 15%;
   position: relative;
   left: 50%;
   right: 50%;
