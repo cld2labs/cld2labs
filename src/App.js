@@ -17,6 +17,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   const baseUrl = window?.location?.href;
+  console.log("baseUrl",baseUrl)
+  console.log("window.location.pathname",window.location.pathname)
   const Iscommunity = window.location.pathname === "/community" ? true : false
   const [load, upadateLoad] = useState(true);
   useEffect(() => {
@@ -28,7 +30,7 @@ function App() {
   }, []);
 
   return (
-    <Router>
+    <Router basename={baseUrl}>
       <div className="App" id={load ? "no-scroll" : "scroll"}>
         {
           load ? <Pre load={load} /> :
