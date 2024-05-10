@@ -40,7 +40,7 @@ function Home({ height }) {
               </h1>
               <br />
               <br />
-              <div style={{ textAlign: "left", fontSize: "1.2em" }}>
+              <div style={{ textAlign: "left", fontSize: "1em" }}>
                 <Row>
                   <h3>From concept to realization, we are more than just the AI, cloud and mobile experts, we specialize in developing tailored software solutions to businesses of all sizes and stages. We help turn your AI aspirations into concrete achievements.</h3>
                 </Row>

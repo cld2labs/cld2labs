@@ -17,7 +17,7 @@ function Home2() {
       <Container>
         <Row>
           <Col md={8} className="home-about-description">
-            <h1 className="heading-name">
+            <h1 className="heading-name home2">
               Let's <span className="highlghter"> Intoduce </span> Ourselves
             </h1>
             <p className="home-about-body">
