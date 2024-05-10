@@ -15,11 +15,13 @@ import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
+const communityPages = ["community", "blogs", 'articles']
+const currentPage = window.location.href.split('#')[1]
+let Iscommunity = communityPages.includes(currentPage) ? true : false
+
 function App() {
   const baseUrl = `https://cloud2labs.com`;
-  console.log("baseUrl::",baseUrl)
-  console.log("window.location.pathname::",window.location.pathname)
-  const Iscommunity = window.location.pathname === "/community" ? true : false
+
   const [load, upadateLoad] = useState(true);
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -29,33 +31,44 @@ function App() {
     return () => clearTimeout(timer);
   }, []);
 
+  useEffect(() => {
+    if (currentPage) {
+      const section = document.getElementById(currentPage);
+      if (section) {
+        section.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+  })
+
   return (
-    <Router basename={baseUrl}>
-      <div className="App" id={load ? "no-scroll" : "scroll"}>
-        {
-          load ? <Pre load={load} /> :
-            <>
-              <Navbar showArticlesBlogs={window.location.pathname === "/community"} />
-             {!Iscommunity && <Home /> } 
-             {!Iscommunity && <Projects /> } 
-             {!Iscommunity && <About /> } 
-             {!Iscommunity && <Contact /> }  
-              <Routes>
+    // <Router>
+    <div className="App" id={load ? "no-scroll" : "scroll"}>
+      {
+        load ? <Pre load={load} /> :
+          <>
+            <Navbar showArticlesBlogs={Iscommunity} />
+            {!Iscommunity && <Home />}
+            {!Iscommunity && <Projects />}
+            {!Iscommunity && <About />}
+            {!Iscommunity && <Contact />}
+            {
+              Iscommunity && <CommunityPages />
+            }
+            {/* <Routes>
                 <Route path="/community" element={<CommunityPages />} />
-              </Routes>
-              <Footer />
-            </>
-        }
-      </div>
-    </Router>
+              </Routes> */}
+            <Footer />
+          </>
+      }
+    </div>
+    // </Router>
   );
 }
 
 function CommunityPages() {
-  const location = useLocation();
-  if (location.pathname === "/community") {
+  if (Iscommunity) {
     return (
-      <div>
+      <div id='community'>
         <Blogs />
         <Articles />
       </div>

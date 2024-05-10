@@ -21,7 +21,7 @@ function NavBar({ showArticlesBlogs }) {
 
   const handelCommunity = () => {
     updateExpanded(false)
-    window.open('/community', '_blank', 'noopener,noreferrer');
+    window.open('#community', '_blank', 'noopener,noreferrer');
   };
 
 
@@ -93,7 +93,7 @@ function NavBar({ showArticlesBlogs }) {
                   <Nav.Link
                     // href="#"
                     onClick={() => handelCommunity()}
-                    // target="_blank"
+                  // target="_blank"
                   >
                     Community
                   </Nav.Link>
