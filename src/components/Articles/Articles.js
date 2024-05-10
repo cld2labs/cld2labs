@@ -3,7 +3,7 @@ import { Container} from "react-bootstrap";
 
 
 export default function Articles() {
-  const baseUrl = `https://cld2labs.github.io/cloud2labs`
+  const baseUrl = window?.location?.href
   return (
     <Container fluid className="articles-section" id="articles">
       <h1 className="project-heading">
