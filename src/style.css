@@ -343,6 +343,7 @@ button:focus {
   position: relative;
   padding-bottom: 70px !important;
   padding-top: 70px !important;
+  margin-top: 10%;
 }
 
 .home-about-description {

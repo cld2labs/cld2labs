@@ -56,16 +56,18 @@ function NavBar({ showArticlesBlogs }) {
             {showArticlesBlogs ? (
               <>
                 <Nav.Item>
-                  <Nav.Link href="#blogs" onClick={() => updateExpanded(false)}>
-                    <RiCommunityLine style={{ marginBottom: "2px" }} /> Blogs
+                  <Nav.Link href="/" onClick={() => updateExpanded(false)}>
+                    Home
                   </Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link
-                    href="#articles"
-                    onClick={() => updateExpanded(false)}
-                  >
-                    <RiCommunityLine style={{ marginBottom: "2px" }} /> Articles
+                  <Nav.Link href="#blogs" onClick={() => updateExpanded(false)}>
+                    Blogs
+                  </Nav.Link>
+                </Nav.Item>
+                <Nav.Item>
+                  <Nav.Link href="#articles" onClick={() => updateExpanded(false)}>
+                    Articles
                   </Nav.Link>
                 </Nav.Item>
               </>

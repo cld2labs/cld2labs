@@ -41,7 +41,6 @@ function App() {
   })
 
   return (
-    // <Router>
     <div className="App" id={load ? "no-scroll" : "scroll"}>
       {
         load ? <Pre load={load} /> :
@@ -54,14 +53,10 @@ function App() {
             {
               Iscommunity && <CommunityPages />
             }
-            {/* <Routes>
-                <Route path="/community" element={<CommunityPages />} />
-              </Routes> */}
             <Footer />
           </>
       }
     </div>
-    // </Router>
   );
 }
 
@@ -71,6 +66,20 @@ function CommunityPages() {
       <div id='community'>
         <Blogs />
         <Articles />
+      </div>
+    );
+  }
+  return null;
+}
+
+function HomePages() {
+  if (Iscommunity) {
+    return (
+      <div id='home'>
+        <Home/>
+        <Projects/>
+        <About/>
+        <Contact/>
       </div>
     );
   }
