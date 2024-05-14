@@ -330,13 +330,13 @@ button:focus {
   }
   .home-about-section {
     /* position: relative; */
-    margin-top: 20%;
+    margin-top: 10em;
   }
   .heading-name {
-    font-size: 4.3em !important;
+    font-size: 3em !important;
   }
   .home2{
-    margin-top: 90%;
+    margin-top: 5em;
   }
   .home-content {
     padding: 4rem 0 3rem !important;
@@ -346,9 +346,9 @@ button:focus {
 }
 
 .home-about-section {
-  position: relative;
-  padding-bottom: 70px !important;
-  padding-top: 70px !important;
+  position: relative !important;
+  padding-top: 50px !important;
+  padding-bottom: 30px !important;
 }
 
 .home-about-description {
