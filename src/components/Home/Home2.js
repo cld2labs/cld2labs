@@ -18,15 +18,15 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 className="heading-name home2">
-              Let's <span className="highlghter"> Intoduce </span> Ourselves
+              Let's <span className="highlghter"> Introduce </span> Ourselves
             </h1>
-            <p className="home-about-body">
+            <h3 className="home-about-body">
             At our core, we are dedicated to <b className="highlghter">revolutionizing</b> the way businesses operate in the digital age, with a primary focus on healthcare innovation. Leveraging the power of <b className="highlghter">Generative AI</b>, we craft <b className="highlghter">cloud solutions</b> tailored to meet the unique needs of the <b className="highlghter">healthcare</b> sector. Our commitment to excellence drives us to develop cutting-edge <b className="highlghter">mobile</b> and <b className="highlghter">web applications</b> that not only streamline processes but also elevate the standard of patient care.
               <br />
               <br />
               While healthcare remains our cornerstone, our expertise extends across various business sectors. From <b className="highlghter">finance to retail</b>, we provide comprehensive cloud solutions that enhance <b className="highlghter">efficiency, productivity, and profitability</b>. Our team of <b className="highlghter">seasoned developers</b> combines industry knowledge with technical prowess to deliver scalable and adaptable solutions that meet the dynamic demands of <b className="highlghter">modern enterprises</b>.
 
-            </p>
+            </h3>
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>

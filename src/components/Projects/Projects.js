@@ -23,7 +23,7 @@ function Projects() {
               key={3}
               imgPath={`Assets/Projects/hc.png`}
               title="Health Care Applications"
-              description="Healthcare software solutions designed to revolutionize patient care and streamline administrative processes. With a focus on innovation and user-centric design, we empowers healthcare providers to deliver exceptional service while maximizing efficiency."
+              description="Healthcare software solutions designed to revolutionize patient care and streamline administrative processes. With a focus on innovation and user-centric design, we empower healthcare providers to deliver exceptional service while maximizing efficiency."
             />
           </Col>
           <Col md={4} className="project-card">

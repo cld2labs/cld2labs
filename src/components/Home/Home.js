@@ -40,9 +40,9 @@ function Home({ height }) {
               </h1>
               <br />
               <br />
-              <div style={{ textAlign: "left", fontSize: "1em" }}>
+              <div style={{ textAlign: "left" }}>
                 <Row>
-                  <h3>From concept to realization, we are more than just the AI, cloud and mobile experts, we specialize in developing tailored software solutions to businesses of all sizes and stages. We help turn your AI aspirations into concrete achievements.</h3>
+                  <h3 style={{lineHeight: "2em",fontSize: "1.5em" }}>From concept to realization, we are more than just the AI, cloud and mobile experts, we specialize in developing tailored software solutions to businesses of all sizes and stages. We help turn your AI aspirations into concrete achievements.</h3>
                 </Row>
               </div>
             </Col>
@@ -68,7 +68,7 @@ function Home({ height }) {
             <div className="mouse"></div>
           </div>
         )}
-        <hr className="yellohr" style={{height:'3px'}}/>
+        {/* <hr className="yellohr" style={{height:'3px'}}/> */}
       </Container>
       <Home2 />
     </section>

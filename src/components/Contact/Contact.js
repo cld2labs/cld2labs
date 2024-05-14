@@ -8,7 +8,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 const initialState = {
-  name: "",
+  from_name: "",
   email: "",
   message: "",
 };
@@ -27,7 +27,7 @@ export const Contact = (props) => {
   const handleSubmit = (e) => {
     e.preventDefault();
     emailjs
-      .sendForm("service_mm4kpug", "template_m8d7e3u", e.target, "jf3VjaUQUiTAMzRwx")
+      .sendForm("cloud2labs", "cloud2labs_contact_email", e.target, "9NxtO0aP-cT2prUkQ")
       .then(
         (result) => {
           console.log(result.text);
@@ -45,6 +45,13 @@ export const Contact = (props) => {
       <Particle />
       <Container>
         <Row className="align-items-center">
+        <Row>
+          <Col md={8} className="home-about-description">
+      <h1 className="heading-name">
+              Get In <span className="highlghter"> Touch </span>
+            </h1>
+            </Col>
+        </Row>
           <ToastContainer />
 
           <Col size={12} md={6}>
@@ -58,7 +65,7 @@ export const Contact = (props) => {
             <TrackVisibility>
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                  <h2>Get In <span className="highlghter">Touch</span></h2>
+                  {/* <h2>Get In <span className="highlghter">Touch</span></h2> */}
                   <form name="sentMessage" validate onSubmit={handleSubmit}>
                     <div className="row">
                       <div>
