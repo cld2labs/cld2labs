@@ -41,17 +41,18 @@ export const Contact = (props) => {
   };
 
   return (
-    <Container fluid className="about-section" id="contact">
+    <Container fluid className="contact-section" id="contact">
+      {/* <div className="verticalLine"></div> */}
       <Particle />
       <Container>
         <Row className="align-items-center">
-        <Row>
-          <Col md={8} className="home-about-description">
-      <h1 className="heading-name">
-              Get In <span className="highlghter"> Touch </span>
-            </h1>
+          <Row>
+            <Col md={8} className="home-about-description">
+              <h1 className="heading-name">
+                Get In <span className="highlghter"> Touch </span>
+              </h1>
             </Col>
-        </Row>
+          </Row>
           <ToastContainer />
 
           <Col size={12} md={6}>

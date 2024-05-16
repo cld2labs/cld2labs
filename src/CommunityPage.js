@@ -10,7 +10,7 @@ function CommunityPage() {
     <div>
       <Navbar showArticlesBlogs/>
       <Blogs />
-      <Articles />
+      {/* <Articles /> */}
     </div>
   );
 }

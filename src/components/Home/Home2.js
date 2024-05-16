@@ -14,6 +14,7 @@ function Home2() {
   const baseUrl = `https://cloud2labs.com`
   return (
     <Container fluid className="home-about-section" id="about">
+      {/* <div className="verticalLine"></div> */}
       <Container>
         <Row>
           <Col md={8} className="home-about-description">

@@ -8,17 +8,19 @@ function Projects() {
   const baseUrl = `https://cloud2labs.com`
   return (
     <Container fluid className="project-section" id="projects">
+      {/* <div className="verticalLine"></div> */}
+
       <Particle />
       <Container>
-      <Row>
+        <Row>
           <Col md={8} className="home-about-description">
-      <h1 className="heading-name">
+            <h1 className="heading-name">
               Our <span className="highlghter"> Work </span>
             </h1>
-            </Col>
+          </Col>
         </Row>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-        <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
               key={3}
               imgPath={`Assets/Projects/hc.png`}

@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home/Home";
+import Home2 from "./components/Home/Home2";
 import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
 import Footer from "./components/Footer";
@@ -47,6 +48,7 @@ function App() {
           <>
             <Navbar showArticlesBlogs={Iscommunity} />
             {!Iscommunity && <Home />}
+            {!Iscommunity && <Home2 />}
             {!Iscommunity && <Projects />}
             {!Iscommunity && <About />}
             {!Iscommunity && <Contact />}
@@ -65,7 +67,7 @@ function CommunityPages() {
     return (
       <div id='community'>
         <Blogs />
-        <Articles />
+        {/* <Articles /> */}
       </div>
     );
   }
@@ -76,10 +78,11 @@ function HomePages() {
   if (Iscommunity) {
     return (
       <div id='home'>
-        <Home/>
-        <Projects/>
-        <About/>
-        <Contact/>
+        <Home />
+        <Home2 />
+        <Projects />
+        <About />
+        <Contact />
       </div>
     );
   }

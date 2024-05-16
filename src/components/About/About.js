@@ -8,15 +8,17 @@ import Aboutcard from "./AboutCard";
 function About() {
   const baseUrl = `https://cloud2labs.com`
   return (
-    <Container fluid className="about-section" id="about">
+    <Container fluid className="about-section" id="expertise">
+      {/* <div className="verticalLine"></div> */}
+
       <Particle />
       <Container>
-      <Row>
+        <Row>
           <Col md={8} className="home-about-description">
-      <h1 className="heading-name">
+            <h1 className="heading-name">
               Our <span className="highlghter"> Expertise </span>
             </h1>
-            </Col>
+          </Col>
         </Row>
 
         <Techstack />
@@ -31,7 +33,7 @@ function About() {
       <br />
       <br />
       <br />
-      <hr className="yellohr" style={{height:'3px'}}/>
+      {/* <hr className="yellohr" style={{ height: '3px' }} /> */}
     </Container>
   );
 }

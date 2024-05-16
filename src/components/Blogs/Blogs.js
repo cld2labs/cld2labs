@@ -7,7 +7,7 @@ export default function Blogs() {
     <Container fluid className="blogs-section" id="blogs">
       <div>
         <h1 className="project-heading">
-          <strong className="highlghter"> Blogs</strong>
+          {/* <strong className="highlghter"> Blogs</strong> */}
         </h1>
       </div>
       <div >

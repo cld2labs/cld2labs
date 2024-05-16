@@ -6,7 +6,7 @@ import Home2 from "./Home2";
 import TrackVisibility from "react-on-screen";
 import { FaArrowRight } from "react-icons/fa";
 
-function Home({ height }) {
+function Home() {
   const baseUrl = `https://cloud2labs.com`
   const [isScrolling, setIsScrolling] = useState(false);
 
@@ -27,7 +27,7 @@ function Home({ height }) {
   }, []);
 
   return (
-    <section>
+    <>
       <Container fluid className="home-section" id="home">
         <Particle />
         <br />
@@ -63,15 +63,14 @@ function Home({ height }) {
             </Col>
           </Row>
         </Container>
-        {!isScrolling && (
+        {/* {!isScrolling && (
           <div className="field">
             <div className="mouse"></div>
           </div>
-        )}
+        )} */}
         {/* <hr className="yellohr" style={{height:'3px'}}/> */}
       </Container>
-      <Home2 />
-    </section>
+      </>
   );
 }
 
